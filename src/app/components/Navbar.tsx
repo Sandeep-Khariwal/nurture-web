@@ -1,15 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import {
-  Flex,
-  Text,
-  Button,
-  Stack,
-  Drawer,
-  Burger,
-  Box,
-} from "@mantine/core";
+import { Flex, Text, Button, Stack, Drawer, Burger, Box } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import Image from "next/image";
 import Link from "next/link";
@@ -51,11 +43,17 @@ export default function Navbar() {
         >
           {[
             { label: "Home", href: "#home" },
-            { label: "Features", href: "#features" },
             { label: "About", href: "#about" },
+            { label: "Features", href: "#features" },
+            { label: "Founders", href: "#founders" },
             // { label: "Contact", href: "#contact" },
           ].map((link) => (
-            <Link href={link.href} passHref key={link.href} style={{ textDecoration: "none" }}>
+            <Link
+              href={link.href}
+              passHref
+              key={link.href}
+              style={{ textDecoration: "none" }}
+            >
               <Text component="a" c="#361101" style={{ cursor: "pointer" }}>
                 {link.label}
               </Text>
@@ -63,7 +61,7 @@ export default function Navbar() {
           ))}
 
           <Button radius="xl" style={{ backgroundColor: "#361101" }}>
-            Join Now
+            Download App
           </Button>
         </Flex>
 
@@ -79,28 +77,28 @@ export default function Navbar() {
       </Flex>
 
       {/* Drawer for Mobile Navigation */}
-<Drawer
-  opened={opened}
-  onClose={close}
-  padding="lg"
-  size="100%"
-  position="right"
-  withCloseButton={true}
-  classNames={{
-    close: "drawer-close",
-  }}
-  styles={{
-    body: {
-      paddingTop: "4rem",
-    },
-  }}
->
-
-        <Flex direction="column" gap="xl" align="center" justify={"center"} >
+      <Drawer
+        opened={opened}
+        onClose={close}
+        padding="lg"
+        size="100%"
+        position="right"
+        withCloseButton={true}
+        classNames={{
+          close: "drawer-close",
+        }}
+        styles={{
+          body: {
+            paddingTop: "4rem",
+          },
+        }}
+      >
+        <Flex direction="column" gap="xl" align="center" justify={"center"}>
           {[
             { label: "Home", href: "#home" },
-            { label: "Features", href: "#features" },
             { label: "About", href: "#about" },
+            { label: "Features", href: "#features" },
+             { label: "Founders", href: "#founders" },
             // { label: "Contact", href: "#contact" },
           ].map((link) => (
             <Link
@@ -128,7 +126,7 @@ export default function Navbar() {
             size="md"
             style={{ backgroundColor: "#361101", marginTop: "2rem" }}
           >
-            Join Now
+            Download App
           </Button>
         </Flex>
       </Drawer>

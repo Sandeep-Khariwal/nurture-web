@@ -8,14 +8,14 @@ export default function Features() {
 
   const features = [
     {
-      title: "10+ Nursing Exams",
+      title: "10+ competitive Exams",
       description:
-        "Get access to curated content for over 10 major nursing exams, including AIIMS, RRB, NHM, and more.",
+        "Get access to curated content for over 10 major exams, including NCLEX,NORCET , AIIMS , CRE and more.",
     },
     {
-      title: "Daily Quizzes",
+      title: "Weekly Quizzes",
       description:
-        "Stay sharp with daily quizzes that test your knowledge and help reinforce key concepts regularly.",
+        "Stay sharp with quizzes that test your knowledge and help reinforce key concepts regularly. Also win exciting prizes in each quiz.",
     },
     {
       title: "Video Lectures",
@@ -23,9 +23,14 @@ export default function Features() {
         "Learn from expert faculty through easy-to-understand video lectures designed for conceptual clarity.",
     },
     {
-      title: "Practice Tests",
+      title: "Subject Wise Modules",
       description:
         "Attempt unlimited mock tests based on real exam patterns to build confidence and speed.",
+    },
+    {
+      title: "Mock Test",
+      description:
+        "Simulates the real exam with timed tests, instant scores, and detailed analysis to boost preparation and confidence.",
     },
     {
       title: "Progress Analytics",
@@ -46,7 +51,7 @@ export default function Features() {
       px={isMd ? "md" : "xl"}
       mih={"100vh"}
       style={{
-        backgroundImage: `url('/logo-pm.png')`, // replace with your actual image path
+        backgroundImage: `url('/logo1.jpg')`, // logo-pm.png replace with your actual image path
         backgroundSize: "cover",
         backgroundPosition: "center",
         padding: "4rem 1rem",
@@ -57,7 +62,7 @@ export default function Features() {
       <Box
       w={isMd?"100%":"40%"}
         style={{
-          backgroundColor: "rgba(255, 255, 255, 0.85)",
+          backgroundColor: "rgba(0,0,0, 0.85)",
           borderRadius: 16,
           boxShadow: "0 8px 20px rgba(0, 0, 0, 0.1)",
           padding: "1rem",
@@ -68,7 +73,7 @@ export default function Features() {
         <Text fz={isMd ? 24 : 40} fw={700} ta="center" c="#B88341">
           Powerful Features
         </Text>
-        <Box  c="#361101" fz={isMd ? 18 : 26} fw={700} ta={"center"} >
+        <Box  c="#fff" fz={isMd ? 18 : 26} fw={700} ta={"center"} >
           <TypewriterClass
             options={{
               strings: ["for Students!", "of 'Nurture Nerve'!"],
@@ -91,7 +96,7 @@ export default function Features() {
             p="xl"
             w={isMd ? "100%" : "30%"}
             style={{
-              backgroundColor: "rgba(255, 255, 255, 0.85)",
+              backgroundColor: "rgba(0,0,0, 0.8)", //rgba(255, 255, 255, 0.85)
               borderRadius: 16,
               boxShadow: "0 8px 20px rgba(0, 0, 0, 0.1)",
               padding: "2rem",
@@ -106,7 +111,7 @@ export default function Features() {
             <Text fw={700} fz={20} c="#B88341" mb="sm">
               {feature.title}
             </Text>
-            <Text fz={14} c="dimmed">
+            <Text fz={14} c="#fff">
               {feature.description}
             </Text>
           </Box>

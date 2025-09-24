@@ -14,7 +14,7 @@ export default function Hero() {
       direction={Md ? "column-reverse" : "row"}
       align="end"
       justify="space-between"
-      px={Md ? "md" : "xl"}
+      
       gap="lg"
       mih={Md?"60vh":"100vh"}
       bg={"#361101"}
@@ -24,16 +24,17 @@ export default function Hero() {
         direction={"column"}
         maw={Md ? "100%" : "50%"}
         align={"start"}
+         px={Md ? "md" : "xl"}
         // justify={Md?"center":""}
       >
         <Box>
           <Text lh={1} fz={Md ? 28 : 40} fw={700} c="#fff">
-            Welcome to, <br />
+            Welcome to <br />
           </Text>
           <Box c={"#B88341"} fz={Md ? 28 : 40} fw={700}>
             <Typewriter
               options={{
-                strings: ["Nurture Nerve Page!", "Nurture Nerve Career!"],
+                strings: ["Nurture Nerve!", "Nurture Nerve Career!"],
                 autoStart: true,
                 loop: true,
               }}
@@ -41,11 +42,11 @@ export default function Hero() {
           </Box>
         </Box>
         <Text lh={1} fz={Md ? 28 : 40} fw={700} mt={30} c="#fff">
-          Empowering Nurses for Success 🚀
+          Empowering you for Success 🚀
         </Text>
         <Text fz={Md ? 16 : 18} mt={20} c="#fff">
-          Level up your nursing journey with Nurture Nerve — your all-in-one
-          platform for cracking 10+ nursing exams with expert video lectures,
+          Level up your journey with Nurture Nerve — your all-in-one
+          platform for cracking multiple competitive exams with expert video lectures,
           daily quizzes, and unlimited practice tests!
         </Text>
         <Flex gap="md" mt={40}>
@@ -56,31 +57,23 @@ export default function Hero() {
           >
             Get Started
           </Button>
-          <Button
-            radius="xl"
-            size="lg"
-            variant="outline"
-            c="#d79f59ff"
-            style={{ borderColor: "#d79f59ff" }}
-          >
-            Learn More
-          </Button>
+         
         </Flex>
       </Flex>
 
       <Flex
         style={{
-          width: Md ? "100%" : "45%",
+          width: Md ? "100%" : "50%",
         }}
         h={"100%"}
         align={"end"}
         justify={"center"}
       >
         <Image
-          src={"/heroImg.png"}
+          src={"/heroImage1.jpg"}
           alt="No logo"
-          width={Md?300:450}
-          height={Md?350:600}
+          width={Md?400:800}
+          height={Md?350:700}
           style={{ marginTop: "auto" }}
         />
       </Flex>
