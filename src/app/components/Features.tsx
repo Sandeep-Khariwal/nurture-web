@@ -62,7 +62,7 @@ export default function Features() {
       <Box
       w={isMd?"100%":"40%"}
         style={{
-          backgroundColor: "rgba(0,0,0, 0.85)",
+          backgroundColor: "rgba(54, 17, 1,0.9)",
           borderRadius: 16,
           boxShadow: "0 8px 20px rgba(0, 0, 0, 0.1)",
           padding: "1rem",
@@ -96,7 +96,7 @@ export default function Features() {
             p="xl"
             w={isMd ? "100%" : "30%"}
             style={{
-              backgroundColor: "rgba(0,0,0, 0.8)", //rgba(255, 255, 255, 0.85)
+              backgroundColor: "rgba(54, 17, 1,0.9)", //rgba(255, 255, 255, 0.85)
               borderRadius: 16,
               boxShadow: "0 8px 20px rgba(0, 0, 0, 0.1)",
               padding: "2rem",
