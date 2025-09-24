@@ -7,6 +7,7 @@ import About from "./components/Aboutus";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Features from "./components/Features";
+import AboutUsPage from "./components/AboutUsPage";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Features />
+      <AboutUsPage/>
       <About />
       {/* <Testimonials /> */}
       <Footer />

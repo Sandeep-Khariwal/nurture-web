@@ -17,7 +17,7 @@ import { IconCheck, IconUserHeart } from "@tabler/icons-react";
 export default function About() {
     const isMd = useMediaQuery("(max-width: 900px)");
   return (
-    <Box bg="#f4f8fb" id="about" >
+    <Box bg="#f4f8fb" id="founders" >
       <Container size="lg" px="md" mt={60}>
         <Stack gap="xl">
           {/* Hero Section */}

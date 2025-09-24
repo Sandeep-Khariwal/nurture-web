@@ -20,7 +20,7 @@ export default function Hero() {
       bg={"#361101"}
     >
       <Flex
-        h={Md?"50vh":"80vh"}
+        h={Md?"60vh":"80vh"}
         direction={"column"}
         maw={Md ? "100%" : "50%"}
         align={"start"}
@@ -72,8 +72,8 @@ export default function Hero() {
         <Image
           src={"/heroImage1.jpg"}
           alt="No logo"
-          width={Md?400:800}
-          height={Md?350:700}
+          width={Md?380:800}
+          height={Md?400:700}
           style={{ marginTop: "auto" }}
         />
       </Flex>
