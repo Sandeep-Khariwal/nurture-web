@@ -96,7 +96,7 @@ export default function Features() {
             p="xl"
             w={isMd ? "100%" : "30%"}
             style={{
-              backgroundColor: "rgba(54, 17, 1,0.9)", //rgba(255, 255, 255, 0.85)
+              backgroundColor: "rgba(255,255,255,0.9)", //rgba(255, 255, 255, 0.85)
               borderRadius: 16,
               boxShadow: "0 8px 20px rgba(0, 0, 0, 0.1)",
               padding: "2rem",
@@ -111,7 +111,7 @@ export default function Features() {
             <Text fw={700} fz={20} c="#B88341" mb="sm">
               {feature.title}
             </Text>
-            <Text fz={14} c="#fff">
+            <Text fz={14} c="#333">
               {feature.description}
             </Text>
           </Box>

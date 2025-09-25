@@ -61,22 +61,31 @@ export default function Hero() {
         </Flex>
       </Flex>
 
-      <Flex
-        style={{
-          width: Md ? "100%" : "50%",
-        }}
-        h={"100%"}
-        align={"end"}
-        justify={"center"}
-      >
-        <Image
-          src={"/heroImage1.jpg"}
-          alt="No logo"
-          width={Md?380:800}
-          height={Md?400:700}
-          style={{ marginTop: "auto" }}
-        />
-      </Flex>
+<Flex
+  style={{
+    width: Md ? "100%" : "50%",
+  }}
+  h={"100%"}
+  align={"end"}
+  justify={"center"}
+>
+  <video
+    src="/heroVid.mp4"
+    width={"100%"}
+    height={Md ? 400 : 700}
+    style={{
+      marginTop: "auto",
+      borderRadius: 8,
+      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
+      objectFit: "cover",
+    }}
+    autoPlay
+    muted
+    loop
+    playsInline
+  />
+</Flex>
+
       
     </Flex>
   );
