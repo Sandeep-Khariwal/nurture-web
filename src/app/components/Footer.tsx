@@ -1,5 +1,5 @@
 "use client";
-import { Box, Flex, Text, Title, Anchor } from "@mantine/core";
+import { Box, Flex, Text, Title, Anchor, Divider } from "@mantine/core";
 import {
   IconBrandInstagram,
   IconBrandYoutube,
@@ -7,6 +7,10 @@ import {
   IconMail,
   IconPhoneCall,
   IconMapPin,
+  IconBrandFacebook,
+  IconBrandTelegram,
+  IconBrandThreads,
+  IconBrandX,
 } from "@tabler/icons-react";
 
 export default function Footer() {
@@ -55,7 +59,7 @@ export default function Footer() {
               </Flex>
             </Anchor>
             <Anchor
-              href="https://youtube.com"
+              href="https://youtube.com/@nurturenerve?si=FqZn_QxEED4cNleu"
               target="_blank"
               style={{ color: "#fff", textDecoration: "none" }}
             >
@@ -64,12 +68,48 @@ export default function Footer() {
               </Flex>
             </Anchor>
             <Anchor
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/nurture-nerve-399a90388?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               style={{ color: "#fff", textDecoration: "none" }}
             >
               <Flex align="center" gap="xs">
                 <IconBrandLinkedin size={18} /> LinkedIn
+              </Flex>
+            </Anchor>
+            <Anchor
+              href="https://www.facebook.com/share/1FgPfrBU6L/"
+              target="_blank"
+              style={{ color: "#fff", textDecoration: "none" }}
+            >
+              <Flex align="center" gap="xs">
+                <IconBrandFacebook size={18} /> Facebook
+              </Flex>
+            </Anchor>
+            <Anchor
+              href="https://t.me/NurtureNerve"
+              target="_blank"
+              style={{ color: "#fff", textDecoration: "none" }}
+            >
+              <Flex align="center" gap="xs">
+                <IconBrandTelegram size={18} /> Telegram
+              </Flex>
+            </Anchor>
+            <Anchor
+              href="https://www.threads.com/@nurturenerve"
+              target="_blank"
+              style={{ color: "#fff", textDecoration: "none" }}
+            >
+              <Flex align="center" gap="xs">
+                <IconBrandThreads size={18} /> Threads
+              </Flex>
+            </Anchor>
+            <Anchor
+              href="https://x.com/NurtureNerve?t=7neOh1e6Gz1Pj5rghyKRUA&s=08"
+              target="_blank"
+              style={{ color: "#fff", textDecoration: "none" }}
+            >
+              <Flex align="center" gap="xs">
+                <IconBrandX size={18} /> X
               </Flex>
             </Anchor>
           </Flex>

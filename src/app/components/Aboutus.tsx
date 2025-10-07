@@ -23,7 +23,7 @@ export default function About() {
           {/* Hero Section */}
           <Stack align="center" gap="sm">
             <Text fz={isMd?"24px":"32px"} fw={700} c="#361101" ta="center">
-              About Us – Founders of Nurture Nerve
+              Founders of Nurture Nerve
             </Text>
             <Text fz="lg" fs="italic" c="dimmed" ta="center">
               “न हि ज्ञानेन सदृशं पवित्रमिह विद्यते। तत्स्वयं योगसंसिद्धः
