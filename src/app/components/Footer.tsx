@@ -12,6 +12,7 @@ import {
   IconBrandThreads,
   IconBrandX,
 } from "@tabler/icons-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -41,6 +42,21 @@ export default function Footer() {
             accessibility, and empowering students to learn smarter and succeed
             faster.
           </Text>
+
+          <Flex direction="column" mt={20} gap="sm">
+            <Link href={"#about"} style={{ color: "white" }}>
+              About Us
+            </Link>
+            <Link href={"/privacy"} style={{ color: "white" }}>
+              Privacy Policy
+            </Link>
+            <Link href={"/terms-and-conditions"} style={{ color: "white" }}>
+              Terms and conditions
+            </Link>
+            <Link href={"/contact-us"} style={{ color: "white" }}>
+              Contact Us
+            </Link>
+          </Flex>
         </Box>
 
         {/* Social Media */}
@@ -124,7 +140,8 @@ export default function Footer() {
             <Flex align="center" gap="sm">
               <IconPhoneCall size={18} />{" "}
               <Text size="sm" style={{ color: "#eee" }}>
-                Available 24 x 7
+                8285484704
+                {/* Available 24 x 7 */}
               </Text>
             </Flex>
             <Flex align="center" gap="sm">
@@ -136,7 +153,7 @@ export default function Footer() {
             <Flex align="center" gap="sm">
               <IconMapPin size={18} />{" "}
               <Text size="sm" style={{ color: "#eee" }}>
-                Sirsa , Haryana , 125055
+                Nurture Nerve 2B, Gandhi Colony Sirsa Haryana (125055)
               </Text>
             </Flex>
             <Text size="sm" style={{ color: "#ccc", marginTop: "0.5rem" }}>
