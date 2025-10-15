@@ -56,6 +56,9 @@ export default function Footer() {
             <Link href={"/contact-us"} style={{ color: "white" }}>
               Contact Us
             </Link>
+            <Link href={"#faqs"} style={{ color: "white" }}>
+              FAQs
+            </Link>
           </Flex>
         </Box>
 

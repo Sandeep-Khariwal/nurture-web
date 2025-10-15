@@ -10,21 +10,20 @@ export default function Hero() {
 
   return (
     <Flex
-    id="home"
+      id="home"
       direction={Md ? "column-reverse" : "row"}
       align="end"
       justify="space-between"
-      
       gap="lg"
-      mih={Md?"60vh":"100vh"}
+      mih={Md ? "60vh" : "80vh"}
       bg={"#361101"}
     >
       <Flex
-        h={Md?"60vh":"80vh"}
+        h={Md ? "60vh" : "80vh"}
         direction={"column"}
         maw={Md ? "100%" : "50%"}
         align={"start"}
-         px={Md ? "md" : "xl"}
+        px={Md ? "md" : "xl"}
         // justify={Md?"center":""}
       >
         <Box>
@@ -45,8 +44,8 @@ export default function Hero() {
           Empowering you for Success 🚀
         </Text>
         <Text fz={Md ? 16 : 18} mt={20} c="#fff">
-          Level up your journey with Nurture Nerve — your all-in-one
-          platform for cracking multiple competitive exams with expert video lectures,
+          Level up your journey with Nurture Nerve — your all-in-one platform
+          for cracking multiple competitive exams with expert video lectures,
           daily quizzes, and unlimited practice tests!
         </Text>
         <Flex gap="md" mt={40}>
@@ -55,38 +54,42 @@ export default function Hero() {
             size="lg"
             style={{ backgroundColor: "#d79f59ff" }}
           >
-            Get Started
+            Android App
           </Button>
-         
+          <Button
+            radius="xl"
+            size="lg"
+            style={{ backgroundColor: "#d79f59ff" }}
+          >
+            Ios App
+          </Button>
         </Flex>
       </Flex>
 
-<Flex
-  style={{
-    width: Md ? "100%" : "50%",
-  }}
-  h={"100%"}
-  align={"end"}
-  justify={"center"}
->
-  <video
-    src="/heroVid.mp4"
-    width={"100%"}
-    height={Md ? 400 : 700}
-    style={{
-      marginTop: "auto",
-      borderRadius: 8,
-      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
-      objectFit: "cover",
-    }}
-    autoPlay
-    muted
-    loop
-    playsInline
-  />
-</Flex>
-
-      
+      <Flex
+        style={{
+          width: Md ? "100%" : "50%",
+        }}
+        h={"100%"}
+        align={"end"}
+        justify={"center"}
+      >
+        <video
+          src="/heroVid1.mp4"
+          width={"100%"}
+          height={Md ? 400 : 600}
+          style={{
+            marginTop: "auto",
+            borderRadius: 8,
+            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
+            objectFit: "cover",
+          }}
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+      </Flex>
     </Flex>
   );
 }

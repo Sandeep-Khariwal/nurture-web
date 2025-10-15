@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Features from "./components/Features";
 import AboutUsPage from "./components/AboutUsPage";
+import FAQPage from "./components/Faqs";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Features />
       <AboutUsPage/>
       <About />
+      <FAQPage/>
       {/* <Testimonials /> */}
       <Footer />
     </Stack>

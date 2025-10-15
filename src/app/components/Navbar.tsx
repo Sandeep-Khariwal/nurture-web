@@ -61,7 +61,10 @@ export default function Navbar() {
           ))}
 
           <Button radius="xl" style={{ backgroundColor: "#361101" }}>
-            Download App
+            Download Android
+          </Button>
+          <Button radius="xl" style={{ backgroundColor: "#361101" }}>
+            Download Ios
           </Button>
         </Flex>
 
@@ -126,7 +129,15 @@ export default function Navbar() {
             size="md"
             style={{ backgroundColor: "#361101", marginTop: "2rem" }}
           >
-            Download App
+            Download Android
+          </Button>
+          <Button
+            radius="xl"
+            fullWidth
+            size="md"
+            style={{ backgroundColor: "#361101"}}
+          >
+            Download Ios
           </Button>
         </Flex>
       </Drawer>
