@@ -3,6 +3,7 @@ import { Box, Stack, Text, Button, Flex } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import Typewriter from "typewriter-effect";
 
 export default function Hero() {
@@ -33,7 +34,7 @@ export default function Hero() {
           <Box c={"#B88341"} fz={Md ? 28 : 40} fw={700}>
             <Typewriter
               options={{
-                strings: ["Nurture Nerve!", "Nurture Nerve Career!"],
+                strings: ["Nurture Nerve!", "Nurture Nerve!"],
                 autoStart: true,
                 loop: true,
               }}
@@ -49,20 +50,20 @@ export default function Hero() {
           daily quizzes, and unlimited practice tests!
         </Text>
         <Flex gap="md" mt={40}>
-          <Button
-            radius="xl"
-            size="lg"
-            style={{ backgroundColor: "#d79f59ff" }}
+          <Link 
+          href={"https://play.google.com/store/apps/details?id=com.nurturenerve"}
+        
+            style={{ backgroundColor: "#d79f59ff", textDecoration:"none" , fontSize:"18px", padding:10, borderRadius:20, color:"#fff", textAlign:"center" }}
           >
             Android App
-          </Button>
-          <Button
-            radius="xl"
-            size="lg"
-            style={{ backgroundColor: "#d79f59ff" }}
+          </Link>
+          <Link 
+          href={"https://apps.apple.com/us/app/nurture-nerve/id6753872406"}
+        
+            style={{ backgroundColor: "#d79f59ff", textDecoration:"none" , fontSize:"18px", padding:10, borderRadius:20, color:"#fff", textAlign:"center" }}
           >
-            Ios App
-          </Button>
+               Ios App
+          </Link>
         </Flex>
       </Flex>
 

@@ -38,7 +38,7 @@ export default function Footer() {
           </Title>
           <Text size="sm" style={{ color: "#eee", lineHeight: 1.6 }}>
             Nurture Nerve is a student-first platform built by doctors and
-            educators to simplify nursing exam preparation. We focus on quality,
+            educators to simplify exam preparation. We focus on quality,
             accessibility, and empowering students to learn smarter and succeed
             faster.
           </Text>
@@ -69,7 +69,7 @@ export default function Footer() {
           </Title>
           <Flex direction="column" gap="sm">
             <Anchor
-              href="https://instagram.com"
+              href="https://www.instagram.com/nurturenerve?igsh=MTV0NGJjbjVvcGdpNg=="
               target="_blank"
               style={{ color: "#fff", textDecoration: "none" }}
             >
@@ -140,13 +140,12 @@ export default function Footer() {
             Contact Us
           </Title>
           <Flex direction="column" gap="sm">
-            <Flex align="center" gap="sm">
+            {/* <Flex align="center" gap="sm">
               <IconPhoneCall size={18} />{" "}
               <Text size="sm" style={{ color: "#eee" }}>
                 8285484704
-                {/* Available 24 x 7 */}
               </Text>
-            </Flex>
+            </Flex> */}
             <Flex align="center" gap="sm">
               <IconMail size={18} />{" "}
               <Text size="sm" style={{ color: "#eee" }}>

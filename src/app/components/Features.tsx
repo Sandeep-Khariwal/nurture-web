@@ -8,19 +8,14 @@ export default function Features() {
 
   const features = [
     {
-      title: "10+ competitive Exams",
+      title: "Multiple Competitive Exams ",
       description:
-        "Get access to curated content for over 10 major exams, including NCLEX,NORCET , AIIMS , CRE and more.",
+        "Get access to curated content for several major exams including NCLEX, NORCET, AIIMS-CRE, and more!",
     },
     {
-      title: "Weekly Quizzes",
+      title: "Weekly Quiz",
       description:
         "Stay sharp with quizzes that test your knowledge and help reinforce key concepts regularly. Also win exciting prizes in each quiz.",
-    },
-    {
-      title: "Video Lectures",
-      description:
-        "Learn from expert faculty through easy-to-understand video lectures designed for conceptual clarity.",
     },
     {
       title: "Subject Wise Modules",

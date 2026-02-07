@@ -59,13 +59,36 @@ export default function Navbar() {
               </Text>
             </Link>
           ))}
-
-          <Button radius="xl" style={{ backgroundColor: "#361101" }}>
+          <Link
+            href={
+              "https://play.google.com/store/apps/details?id=com.nurturenerve"
+            }
+            style={{
+              backgroundColor: "#361101",
+              textDecoration: "none",
+              fontSize: "14px",
+              padding: "6px 10px",
+              borderRadius: 20,
+              color: "#fff",
+              textAlign: "center",
+            }}
+          >
             Download Android
-          </Button>
-          <Button radius="xl" style={{ backgroundColor: "#361101" }}>
+          </Link>
+          <Link
+            href={"https://apps.apple.com/us/app/nurture-nerve/id6753872406"}
+            style={{
+              backgroundColor: "#361101",
+              textDecoration: "none",
+              fontSize: "14px",
+              padding: "6px 10px",
+              borderRadius: 20,
+              color: "#fff",
+              textAlign: "center",
+            }}
+          >
             Download Ios
-          </Button>
+          </Link>
         </Flex>
 
         {/* Burger Menu (Mobile only) */}
@@ -101,7 +124,7 @@ export default function Navbar() {
             { label: "Home", href: "#home" },
             { label: "About", href: "#about" },
             { label: "Features", href: "#features" },
-             { label: "Founders", href: "#founders" },
+            { label: "Founders", href: "#founders" },
             // { label: "Contact", href: "#contact" },
           ].map((link) => (
             <Link
@@ -123,22 +146,38 @@ export default function Navbar() {
             </Link>
           ))}
 
-          <Button
-            radius="xl"
-            fullWidth
-            size="md"
-            style={{ backgroundColor: "#361101", marginTop: "2rem" }}
+          <Link
+            href={
+              "https://play.google.com/store/apps/details?id=com.nurturenerve"
+            }
+            style={{
+              backgroundColor: "#361101",
+              textDecoration: "none",
+              fontSize: "14px",
+              padding: "10px 10px",
+              borderRadius: 20,
+              color: "#fff",
+              textAlign: "center",
+              width: "100%",
+            }}
           >
             Download Android
-          </Button>
-          <Button
-            radius="xl"
-            fullWidth
-            size="md"
-            style={{ backgroundColor: "#361101"}}
+          </Link>
+          <Link
+            href={"https://apps.apple.com/us/app/nurture-nerve/id6753872406"}
+            style={{
+              backgroundColor: "#361101",
+              textDecoration: "none",
+              fontSize: "14px",
+              padding: "10px 10px",
+              borderRadius: 20,
+              color: "#fff",
+              textAlign: "center",
+              width: "100%",
+            }}
           >
             Download Ios
-          </Button>
+          </Link>
         </Flex>
       </Drawer>
     </>
