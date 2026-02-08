@@ -18,6 +18,11 @@ export default function Features() {
         "Stay sharp with quizzes that test your knowledge and help reinforce key concepts regularly. Also win exciting prizes in each quiz.",
     },
     {
+      title: "Video Lectures",
+      description:
+        "Roadmap to Success – A comprehensive, well-curated guide for each exam, covering the exam pattern, detailed syllabus, eligibility requirements, and all essential information you need to prepare with clarity and confidence.",
+    },
+    {
       title: "Subject Wise Modules",
       description:
         "Attempt unlimited mock tests based on real exam patterns to build confidence and speed.",
@@ -41,7 +46,7 @@ export default function Features() {
 
   return (
     <Flex
-    id="features"
+      id="features"
       direction={"column"}
       px={isMd ? "md" : "xl"}
       mih={"100vh"}
@@ -55,7 +60,7 @@ export default function Features() {
       }}
     >
       <Box
-      w={isMd?"100%":"40%"}
+        w={isMd ? "100%" : "40%"}
         style={{
           backgroundColor: "rgba(54, 17, 1,0.9)",
           borderRadius: 16,
@@ -68,7 +73,7 @@ export default function Features() {
         <Text fz={isMd ? 24 : 40} fw={700} ta="center" c="#B88341">
           Powerful Features
         </Text>
-        <Box  c="#fff" fz={isMd ? 18 : 26} fw={700} ta={"center"} >
+        <Box c="#fff" fz={isMd ? 18 : 26} fw={700} ta={"center"}>
           <TypewriterClass
             options={{
               strings: ["for Students!", "of 'Nurture Nerve'!"],

@@ -155,7 +155,7 @@ export default function Footer() {
             <Flex align="center" gap="sm">
               <IconMapPin size={18} />{" "}
               <Text size="sm" style={{ color: "#eee" }}>
-                Nurture Nerve 2B, Gandhi Colony Sirsa Haryana (125055)
+                Nurture Nerve , Gandhi Colony Sirsa Haryana (125055)
               </Text>
             </Flex>
             <Text size="sm" style={{ color: "#ccc", marginTop: "0.5rem" }}>
