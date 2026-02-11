@@ -18,9 +18,9 @@ export default function Features() {
         "Stay sharp with quizzes that test your knowledge and help reinforce key concepts regularly. Also win exciting prizes in each quiz.",
     },
     {
-      title: "Video Lectures",
+      title: "Roadmap to Success",
       description:
-        "Roadmap to Success – A comprehensive, well-curated guide for each exam, covering the exam pattern, detailed syllabus, eligibility requirements, and all essential information you need to prepare with clarity and confidence.",
+        "A comprehensive, well-curated guide for each exam, covering the exam pattern, detailed syllabus, eligibility requirements, and all essential information you need to prepare with clarity and confidence.",
     },
     {
       title: "Subject Wise Modules",
