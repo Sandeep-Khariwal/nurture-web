@@ -1,0 +1,837 @@
+[{
+  "phoneNumber": "1234567890",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Test User",
+  "email": "test@yopmail.com"
+},
+{
+  "phoneNumber": "2222222222",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    }
+  ],
+  "name": "Ronak User",
+  "email": "ronaktest@yopmail.com"
+},
+{
+  "phoneNumber": "9416059799",
+  "collegeName": "Ramanujan college",
+  "address": "Vpo sinthla ",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-39ff48a8-df73-4c32-96ac-1998baf0ddbb",
+      "name": "DHA Hindi (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Sandeep Khariwal",
+  "email": "sandeepkhariwal01@gmail.com"
+},
+{
+  "phoneNumber": "6375535137",
+  "collegeName": "Aiims",
+  "address": "Sky hi sriganganagar\n",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-39ff48a8-df73-4c32-96ac-1998baf0ddbb",
+      "name": "DHA Hindi (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Richa Mishra",
+  "email": "mishrix@gmail.com"
+},
+{
+  "phoneNumber": "8285484704",
+  "collegeName": "AIIMS JODHPUR",
+  "address": "Jodhpur",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-39ff48a8-df73-4c32-96ac-1998baf0ddbb",
+      "name": "DHA Hindi (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Sahil Thakral",
+  "email": "thakralsahil16@gmail.com"
+},
+{
+  "phoneNumber": "7254880990",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    }
+  ],
+  "name": "Deepak Kumar",
+  "email": "worksbydeepak@gmail.com"
+},
+{
+  "phoneNumber": "7870014087",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Anjum Kamali",
+  "email": "test@gmail.com"
+},
+{
+  "phoneNumber": "8459442681",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": true
+    }
+  ],
+  "name": "Test1 Test2",
+  "email": "mohinipatil3082000@gmail.com"
+},
+{
+  "phoneNumber": "2084422881",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Umar Khalid",
+  "email": "umarj87746@gmail.com"
+},
+{
+  "phoneNumber": "9075829818",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    }
+  ],
+  "name": "Rohit Shelar",
+  "email": "shelarrohit78@gmail.com"
+},
+{
+  "phoneNumber": "1122334455",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    }
+  ],
+  "name": "Test Android",
+  "email": "testandroid@yopmail.com"
+},
+{
+  "phoneNumber": "7291802261",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Arpan Singh",
+  "email": "arpansinghrajput123@gmail.com"
+},
+{
+  "phoneNumber": "6388757821",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    }
+  ],
+  "name": "MANVINDER Singh",
+  "email": "chandmanvendra@gmail.com"
+},
+{
+  "phoneNumber": "9463182321",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    }
+  ],
+  "name": "Jagdeep Jindal",
+  "email": "jagdeepsilky@gmail.com"
+},
+{
+  "phoneNumber": "9588776763",
+  "collegeName": "Aiims",
+  "address": "Sriganganagar ",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-39ff48a8-df73-4c32-96ac-1998baf0ddbb",
+      "name": "DHA Hindi (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Sunny Singh",
+  "email": "sahilsunny0104@gmail.com"
+},
+{
+  "phoneNumber": "7814006703",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Sarwan Chouhan",
+  "email": "sarwanchouhan186@gmail.com"
+},
+{
+  "phoneNumber": "7206881771",
+  "collegeName": "Gg",
+  "address": "Ggg",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Guri Rai",
+  "email": "gs9960979@gmail.com"
+},
+{
+  "phoneNumber": "7888413106",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Neelam Rani",
+  "email": "neelamrani13106@gmail.com"
+},
+{
+  "phoneNumber": "9414002662",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-39ff48a8-df73-4c32-96ac-1998baf0ddbb",
+      "name": "DHA Hindi (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Rajesh Mishra",
+  "email": "mishrarajesh59@gmail.com"
+},
+{
+  "phoneNumber": "9460458328",
+  "collegeName": "Aiims ",
+  "address": "Sriganganagar",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-39ff48a8-df73-4c32-96ac-1998baf0ddbb",
+      "name": "DHA Hindi (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Ric Mish",
+  "email": "mishrix18@gmail.com"
+},
+{
+  "phoneNumber": "8005567019",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-39ff48a8-df73-4c32-96ac-1998baf0ddbb",
+      "name": "DHA Hindi (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Rita Mishra",
+  "email": "mishrareetu31@gmail.com"
+},
+{
+  "phoneNumber": "8373935131",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    }
+  ],
+  "name": "Sartaz Ali",
+  "email": "alisartaz2362@gmail.com"
+},
+{
+  "phoneNumber": "6985369858",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-c67ee686-3674-45e7-bd3a-d0158257a593",
+      "name": "MRT (Medical Record Technician)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-4ea1d656-eae0-479b-bac6-b4921acb6d7f",
+      "name": "1111111111",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-39ff48a8-df73-4c32-96ac-1998baf0ddbb",
+      "name": "DHA Hindi (Dissection Hall Attendant)",
+      "is_primary": false
+    }
+  ],
+  "name": "Radha Jha",
+  "email": "jha699867@gmail.com"
+},
+{
+  "phoneNumber": "0871234565",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Apple Test",
+  "email": "adolp.p24g38b.7gdg@icloud.com"
+},
+{
+  "phoneNumber": "2233445678",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Lucretia Bolduc",
+  "email": "lucre.p24g38b.88n9@icloud.com"
+},
+{
+  "phoneNumber": "4466889732",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    }
+  ],
+  "name": "Elaine Siwicki",
+  "email": "elain.p24g38b.8j1c@icloud.com"
+},
+{
+  "phoneNumber": "9999999999",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "John Doh",
+  "email": "aaa@email.com"
+},
+{
+  "phoneNumber": "8888888888",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-98171ee7-576b-423d-b278-3aff04913db4",
+      "name": "DHA English (Dissection Hall Attendant)",
+      "is_primary": true
+    }
+  ],
+  "name": "Tester Treat",
+  "email": "hrlp24g38brcxstgvvi@icloud.com"
+},
+{
+  "phoneNumber": "8306841616",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": false
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": true
+    }
+  ],
+  "name": "Prashant Swami",
+  "email": "prashantswami170420@gmail.com"
+},
+{
+  "phoneNumber": "9306538349",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    },
+    {
+      "_id": "EXAM-f100ba21-b520-438a-9e69-c6f07d2a7650",
+      "name": "1111111111",
+      "is_primary": false
+    }
+  ],
+  "name": "Amit Khariwal",
+  "email": "sandeepkharival123@gmail.com"
+},
+{
+  "phoneNumber": "9468395230",
+  "collegeName": "",
+  "address": "",
+  "gender": "",
+  "country": "",
+  "countryCode": "+91",
+  "exams": [
+    {
+      "_id": "EXAM-24b3fe7e-a114-4dc2-976a-15d71a86ba91",
+      "name": "NCLEX (National Council Licensure Examination)",
+      "is_primary": true
+    }
+  ],
+  "name": "Smriti Thakral",
+  "email": "smritithakral@yahoo.in"
+}]

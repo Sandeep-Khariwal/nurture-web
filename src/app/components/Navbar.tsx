@@ -5,6 +5,7 @@ import { Flex, Text, Button, Stack, Drawer, Burger, Box } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import Image from "next/image";
 import Link from "next/link";
+import { IconBrandGooglePlay, IconBrandApple } from "@tabler/icons-react";
 
 export default function Navbar() {
   const Md = useMediaQuery("(max-width: 900px)");
@@ -60,9 +61,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href={
-              "https://play.google.com/store/apps/details?id=com.nurturenerve"
-            }
+            href="https://play.google.com/store/apps/details?id=com.nurturenerve"
             style={{
               backgroundColor: "#361101",
               textDecoration: "none",
@@ -71,12 +70,17 @@ export default function Navbar() {
               borderRadius: 20,
               color: "#fff",
               textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              gap: "5px",
             }}
           >
-            Download Android
+            <IconBrandGooglePlay size={16} />
+            Play Store App
           </Link>
+
           <Link
-            href={"https://apps.apple.com/us/app/nurture-nerve/id6753872406"}
+            href="https://apps.apple.com/us/app/nurture-nerve/id6753872406"
             style={{
               backgroundColor: "#361101",
               textDecoration: "none",
@@ -85,9 +89,13 @@ export default function Navbar() {
               borderRadius: 20,
               color: "#fff",
               textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              gap: "5px",
             }}
           >
-            Download Ios
+            <IconBrandApple size={16} />
+            Apple Store App
           </Link>
         </Flex>
 
@@ -147,36 +155,43 @@ export default function Navbar() {
           ))}
 
           <Link
-            href={
-              "https://play.google.com/store/apps/details?id=com.nurturenerve"
-            }
+            href="https://play.google.com/store/apps/details?id=com.nurturenerve"
             style={{
-              backgroundColor: "#361101",
+              backgroundColor: "rgb(59, 35, 6)",
               textDecoration: "none",
-              fontSize: "14px",
-              padding: "10px 10px",
-              borderRadius: 20,
+              fontSize: "18px",
+              padding: "14px 22px",
+              borderRadius: 25,
               color: "#fff",
-              textAlign: "center",
-              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              gap: "10px",
+              justifyContent: "center",
+              width: "100%"
             }}
           >
-            Download Android
+            <IconBrandGooglePlay size={24} />
+            Play Store App
           </Link>
+
           <Link
-            href={"https://apps.apple.com/us/app/nurture-nerve/id6753872406"}
+            href="https://apps.apple.com/us/app/nurture-nerve/id6753872406"
             style={{
-              backgroundColor: "#361101",
+              backgroundColor: "rgb(59, 35, 6)",
               textDecoration: "none",
-              fontSize: "14px",
-              padding: "10px 10px",
-              borderRadius: 20,
+              fontSize: "18px",
+              padding: "14px 22px",
+              borderRadius: 25,
               color: "#fff",
-              textAlign: "center",
-              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              gap: "10px",
+              justifyContent: "center",
+              width: "100%"
             }}
           >
-            Download Ios
+            <IconBrandApple size={24} />
+            Apple Store App
           </Link>
         </Flex>
       </Drawer>

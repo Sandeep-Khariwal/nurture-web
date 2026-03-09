@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
+import { IconBrandGooglePlay, IconBrandApple } from "@tabler/icons-react";
 
 export default function Hero() {
   const Md = useMediaQuery("(max-width: 900px)");
@@ -25,7 +26,7 @@ export default function Hero() {
         maw={Md ? "100%" : "50%"}
         align={"start"}
         px={Md ? "md" : "xl"}
-        // justify={Md?"center":""}
+      // justify={Md?"center":""}
       >
         <Box>
           <Text lh={1} fz={Md ? 28 : 40} fw={700} c="#fff">
@@ -50,19 +51,42 @@ export default function Hero() {
           daily quizzes, and unlimited practice tests!
         </Text>
         <Flex gap="md" mt={40}>
-          <Link 
-          href={"https://play.google.com/store/apps/details?id=com.nurturenerve"}
-        
-            style={{ backgroundColor: "#d79f59ff", textDecoration:"none" , fontSize:"18px", padding:10, borderRadius:20, color:"#fff", textAlign:"center" }}
+          <Link
+            href="https://play.google.com/store/apps/details?id=com.nurturenerve"
+            style={{
+              backgroundColor: "#d79f59ff",
+              textDecoration: "none",
+              fontSize: "18px",
+              padding: 10,
+              borderRadius: 20,
+              color: "#fff",
+              textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+            }}
           >
-            Android App
+            <IconBrandGooglePlay size={20} />
+            Play Store App
           </Link>
-          <Link 
-          href={"https://apps.apple.com/us/app/nurture-nerve/id6753872406"}
-        
-            style={{ backgroundColor: "#d79f59ff", textDecoration:"none" , fontSize:"18px", padding:10, borderRadius:20, color:"#fff", textAlign:"center" }}
+
+          <Link
+            href="https://apps.apple.com/us/app/nurture-nerve/id6753872406"
+            style={{
+              backgroundColor: "#d79f59ff",
+              textDecoration: "none",
+              fontSize: "18px",
+              padding: 10,
+              borderRadius: 20,
+              color: "#fff",
+              textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+            }}
           >
-               Ios App
+            <IconBrandApple size={20} />
+            Apple store App
           </Link>
         </Flex>
       </Flex>

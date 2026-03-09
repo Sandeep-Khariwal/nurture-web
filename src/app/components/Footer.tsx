@@ -13,6 +13,7 @@ import {
   IconBrandX,
 } from "@tabler/icons-react";
 import Link from "next/link";
+import { Image } from "@mantine/core";
 
 export default function Footer() {
   return (
@@ -162,6 +163,20 @@ export default function Footer() {
               💬 Feedback & suggestions are always welcome!
             </Text>
           </Flex>
+          <Image
+            src="/dpiit.jpeg"
+            alt="Startup India recognized - DPIIT certificate"
+            w={{ base: 250, sm: 200, md: 220 }} 
+            h="auto"
+            style={{
+              filter: 'brightness(0.95) contrast(1.1)',
+              borderRadius: '8px',
+              backgroundColor: 'rgba(255, 255, 255, 0.05)',
+              padding: '12px',
+              border: '1px solid rgba(184, 131, 65, 0.4)',
+              marginTop: '1rem',
+            }}
+          />
         </Box>
       </Flex>
 
