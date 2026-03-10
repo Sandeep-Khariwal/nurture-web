@@ -60,7 +60,7 @@ export default function Navbar() {
               </Text>
             </Link>
           ))}
-          <Link
+          {/* <Link
             href="https://play.google.com/store/apps/details?id=com.nurturenerve"
             style={{
               backgroundColor: "#361101",
@@ -96,6 +96,40 @@ export default function Navbar() {
           >
             <IconBrandApple size={16} />
             Apple Store App
+          </Link> */}
+                   <Link
+            href="https://play.google.com/store/apps/details?id=com.nurturenerve"
+            style={{
+              textDecoration: "none",
+              fontSize: "18px",
+              borderRadius: 10,
+              color: "#fff",
+              textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              overflow:"hidden"
+            }}
+          >
+            {" "}
+            <Image src={"/playstore.jpeg"} alt="not found" width={100} height={30} />
+          </Link>
+          <Link
+            href="https://apps.apple.com/us/app/nurture-nerve/id6753872406"
+            style={{
+              textDecoration: "none",
+              fontSize: "18px",
+              borderRadius: 10,
+              color: "#fff",
+              textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              overflow:"hidden"
+            }}
+          >
+            {" "}
+            <Image src={"/appstore.jpeg"} alt="not found" width={100} height={30} />
           </Link>
         </Flex>
 
@@ -154,7 +188,7 @@ export default function Navbar() {
             </Link>
           ))}
 
-          <Link
+          {/* <Link
             href="https://play.google.com/store/apps/details?id=com.nurturenerve"
             style={{
               backgroundColor: "rgb(59, 35, 6)",
@@ -192,6 +226,41 @@ export default function Navbar() {
           >
             <IconBrandApple size={24} />
             Apple Store App
+          </Link> */}
+
+            <Link
+            href="https://play.google.com/store/apps/details?id=com.nurturenerve"
+            style={{
+              textDecoration: "none",
+              fontSize: "18px",
+              borderRadius: 20,
+              color: "#fff",
+              textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              overflow:"hidden"
+            }}
+          >
+            {" "}
+            <Image src={"/playstore.jpeg"} alt="not found" width={200} height={60} />
+          </Link>
+          <Link
+            href="https://apps.apple.com/us/app/nurture-nerve/id6753872406"
+            style={{
+              textDecoration: "none",
+              fontSize: "18px",
+              borderRadius: 20,
+              color: "#fff",
+              textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              overflow:"hidden"
+            }}
+          >
+            {" "}
+            <Image src={"/appstore.jpeg"} alt="not found" width={200} height={60} />
           </Link>
         </Flex>
       </Drawer>

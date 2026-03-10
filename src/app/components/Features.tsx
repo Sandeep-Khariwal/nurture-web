@@ -10,7 +10,7 @@ export default function Features() {
     {
       title: "Multiple Competitive Exams ",
       description:
-        "Get access to curated content for several major exams including NCLEX, NORCET, MLT, MRT, DHA Hindi, DHA English, and more!",
+        "Get access to curated content for several major exams including NCLEX, NORCET, MLT, MRT, DHA Hindi, DHA English, AIIMS Cre and more!",
     },
     {
       title: "Weekly Quiz",
