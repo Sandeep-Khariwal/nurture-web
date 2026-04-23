@@ -16,10 +16,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default:"Nurture nerve | Competitive and Govt. Jobs exam preparation",
+    default:"Nurture Nerve | Competitive and Government jobs exam preparation",
     template:"%s"
   },
-  description: "Competitive and Govt. Jobs exam preparation",
+  description: "All in one study solution",
   icons: {
     icon: [
       {
